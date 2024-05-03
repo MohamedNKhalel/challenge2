@@ -18,14 +18,14 @@ body{
     align-items: center;
     background-color: var(--Yellow);
     font-size: 16px;
-    
 }
 .my-card{
     background-color: white;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 20px 20px 0px 0px black;
+    box-shadow: 10px 10px 0px 0px black;
     border: solid 2px black;
+    transition: all .5s ease;
 }
 .head img{
     border-radius: 10px;
@@ -39,6 +39,9 @@ body{
 }
 .body .b1 h1:hover{
     color: var(--Yellow);
+}
+.my-card:hover{
+    box-shadow: 20px 20px 0px 0px black;
 }
 .body .b1 p{
     color: var(--Black);
