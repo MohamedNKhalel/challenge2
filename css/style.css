@@ -18,12 +18,14 @@ body{
     align-items: center;
     background-color: var(--Yellow);
     font-size: 16px;
+    
 }
 .my-card{
     background-color: white;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 20px 20px 0px 0px black;
+    border: solid 2px black;
 }
 .head img{
     border-radius: 10px;
